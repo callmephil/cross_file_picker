@@ -96,7 +96,8 @@ class CrossFilePicker {
       maxWidth: maxWidth,
       maxHeight: maxHeight,
     );
-    return list ?? const [];
+
+    return list;
   }
 
   /// See [ImagePicker.pickVideo]
