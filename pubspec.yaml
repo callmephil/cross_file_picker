@@ -14,10 +14,17 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Picker
   file_picker: ^5.2.0+1
   image_picker: ^0.8.6
 
+  # File
   cross_file: ^0.3.3+2
+
+  # Upload
+  dio: ^4.0.6
+  mime: ^1.0.2
+  connectivity_plus: ^3.0.0
 
 dev_dependencies:
   flutter_test:
